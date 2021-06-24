@@ -1,0 +1,57 @@
+{
+  "name": "FirstApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "build-react": "webpack --mode production",
+    "start-react": "webpack serve --config ./webpack.config.js --mode development",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.11",
+    "@react-navigation/native": "5.9.4",
+    "@react-navigation/stack": "5.14.5",
+    "accordion-collapse-react-native": "1.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.2",
+    "react-native": "0.64.2",
+    "react-native-autoheight-webview": "1.5.8",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-reanimated": "2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.4.0",
+    "react-native-switch-toggle": "2.1.1",
+    "react-native-web": "0.17.0",
+    "react-native-webview": "11.6.4",
+    "react-navigation": "4.4.4",
+    "react-navigation-hooks": "1.1.0",
+    "react-redux": "7.2.4",
+    "redux": "4.1.0",
+    "toggle-switch-react-native": "3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "@babel/preset-react": "7.14.5",
+    "@babel/runtime": "7.14.6",
+    "@react-native-community/eslint-config": "3.0.0",
+    "babel-jest": "27.0.2",
+    "babel-loader": "8.2.2",
+    "babel-plugin-root-import": "6.6.0",
+    "eslint": "7.29.0",
+    "html-webpack-plugin": "5.3.1",
+    "jest": "27.0.4",
+    "jetifier": "1.6.8",
+    "metro-react-native-babel-preset": "0.66.0",
+    "react-test-renderer": "17.0.1",
+    "webpack": "5.39.1",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "3.11.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
